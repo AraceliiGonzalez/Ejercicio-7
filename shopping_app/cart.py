@@ -19,7 +19,7 @@ class Cart:
         price_list = []
         for item in self.items:
             price_list.append(item.price)
-        return sum(price_list
+        return sum(price_list)
 
     def checkout(self, customer):
         for item in self.items:
